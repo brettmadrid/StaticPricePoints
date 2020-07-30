@@ -1,0 +1,120 @@
+body {
+  background-color: rgb(88, 112, 218);
+  box-sizing: border-box;
+  display: flex;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  background-color: white;
+  width: 1049px;
+  height: 394px;
+  margin: 200px auto;
+  border-radius: 5px;
+  display: flex;
+}
+
+.content-container {
+  width: 349px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.phone {
+  margin-left: 30px;
+}
+
+.monitor {
+  margin-right: 30px;
+}
+
+.content:hover {
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.content p {
+  margin-left: 95px;
+  margin-right: 20px;
+  margin-top: 34px;
+}
+
+img {
+  padding-top: 11px;
+}
+
+img .mobile {
+  padding-left: 30px;
+  padding-right: 27px;
+}
+
+img .laptop {
+  padding-right: 40px;
+}
+
+img .tv {
+  padding-right: 34px;
+}
+
+h1 {
+  font-size: 25px;
+  font-weight: 500px;
+  color: rgb(88, 112, 218);
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(88, 112, 218);
+  letter-spacing: 3px;
+  margin-top: 34px;
+}
+
+.verbage-container {
+  text-align: center;
+}
+
+.verbage {
+  display: inline-block;
+  color: grey;
+  font-size: 0.95rem;
+  margin-top: 2px;
+  line-height: 1.5;
+}
+
+.v-mobile {
+  padding-left: 42px;
+  padding-right: 30px;
+}
+
+.v-laptop {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.v-tv {
+  padding-left: 30px;
+  padding-right: 35px;
+}
+
+.amount {
+  display: flex;
+  flex-direction: row;
+}
+
+.dollar-amt span {
+  font-size: 1rem;
+}
+
+.dollar-amt {
+  color: rgb(88, 112, 218);
+  font-size: 2.3rem;
+  margin-top: 10px;
+  margin-left: 6px;
+  letter-spacing: 0.5px;
+}
